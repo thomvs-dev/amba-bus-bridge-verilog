@@ -188,6 +188,9 @@ If you ever feel confused, ask:
 
 That question unlocks the FSM logic.
 
+<img width="695" height="450" alt="image" src="https://github.com/user-attachments/assets/ed096b38-2892-432e-9917-180673878a49" />
+
+
 ---
 
 ## What this design intentionally does NOT include

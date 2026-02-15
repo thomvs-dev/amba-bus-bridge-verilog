@@ -1,4 +1,4 @@
-module AHB_APB_Bridge (
+module Bridge_top (
   input        hclk,
   input        hresetn,
 

@@ -27,24 +27,26 @@ module top_tb();
   );
 
 
-  Bridge_top bridge (
-    hclk,
-    hresetn,
-    hwrite,
-    hreadyin,
-    hwdata,
-    haddr,
-    prdata,
-    htrans,
-    pwrite,
-    penable,
-    hreadyout,
-    pselx,
-    paddr,
-    pwdata,
-    hrdata,
-    hresp
-  );
+Bridge_top1 bridge (
+    .hclk(hclk),
+    .hresetn(hresetn),
+    .hwrite(hwrite),
+    .hreadyin(hreadyin),
+    .htrans(htrans),
+    .haddr(haddr),
+    .hwdata(hwdata),
+
+    .hreadyout(hreadyout),
+    .hrdata(hrdata),
+
+    .prdata(prdata),
+
+    .pwrite(pwrite),
+    .penable(penable),
+    .pselx(pselx),
+    .paddr(paddr),
+    .pwdata(pwdata)
+);
 
 
   APB_Interface apb (
